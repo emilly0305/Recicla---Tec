@@ -1,37 +1,48 @@
-/*#eeefed*/
-/*#187b1b*/
-/*#9fe0a1*/
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   background-color: #eeefed;
-   color: #44035c;
-   margin: 0;
-   padding: 0;
-
-}
-header{
-   background-color: #110e13;
-   color: #9fe0a1;
-   padding: 15px 50px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
 }
 
+header {
+  background-color: #003366; /* Azul institucional (ajuste para o tom exato do CEEP) */
+  color: white;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header nav a {
-   color: #9fe0a1;
-   text-decoration: none;
-   margin-left: 20px;
-   font-weight: bold;
-} 
-
-header nav a:hover {
-   color: #4caf50;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
 }
-
+header nav a:hover {
+  color: #4caf50; /* Verde ecologico para destaque */
+}
 .hero {
-   background-color: #9fe0a1;
-   color: #44035c;
-   text-align: center;
-   padding: 50px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+  display: flex;
+
+  flex-direction: column;
+}
+isabel{
+   margin-top: 15px;
+   
 }
